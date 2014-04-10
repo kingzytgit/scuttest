@@ -23,7 +23,7 @@ THE SOFTWARE.
 ****************************************************************************/
 using ZyGames.Framework.Game.Lang;
 
-namespace GameServer.Locale
+namespace TestGameServer.Locale
 {
     public class SimplifiedLanguage : Language
     {

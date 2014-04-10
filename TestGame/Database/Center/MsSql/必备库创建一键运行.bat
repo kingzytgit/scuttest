@@ -28,8 +28,8 @@ exit
 )
 
 rem 这是注释符
-Sqlcmd -S %dbServer% -U %dbAcount% -P %dbPass% -d master -i 创建游戏帐号.sql -v gameuser="%gameuser%" loginPass="%gamepass%"
-@echo 创建数据库登录帐号成功!
+rem Sqlcmd -S %dbServer% -U %dbAcount% -P %dbPass% -d master -i 创建游戏帐号.sql -v gameuser="%gameuser%" loginPass="%gamepass%"
+rem @echo 创建数据库登录帐号成功!
 
 Sqlcmd -S %dbServer% -U %dbAcount% -P %dbPass% -d master -i 用户中心表结构.sql -v gameuser="%gameuser%" dbpath="%dbpath%" 
 @echo 正在创建用户中心数据库成功!

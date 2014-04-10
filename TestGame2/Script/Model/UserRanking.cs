@@ -25,13 +25,13 @@ using System;
 using ProtoBuf;
 using ZyGames.Framework.Model;
 
-namespace GameServer.Model
+namespace TestGameServer.Model
 {
     /// <summary>
     /// 玩家排行榜实体类
     /// </summary>
     [Serializable, ProtoContract]
-    [EntityTable(CacheType.Entity, "ConnData")]
+    [EntityTable(CacheType.Entity, "TestGameData")]
     public class UserRanking : ShareEntity
     {
         public UserRanking()

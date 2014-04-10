@@ -27,10 +27,10 @@ using ProtoBuf;
 using ZyGames.Framework.Game.Context;
 using ZyGames.Framework.Model;
 
-namespace GameServer.Model
+namespace TestGameServer.Model
 {
     [Serializable, ProtoContract]
-    [EntityTable("ConnData")]
+    [EntityTable("TestGameData")]
     public class GameUser : BaseUser
     {
         [ProtoMember(1)]

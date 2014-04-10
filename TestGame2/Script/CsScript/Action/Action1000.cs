@@ -22,12 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ****************************************************************************/
 
-using GameServer.Model;
+using TestGameServer.Model;
 using ZyGames.Framework.Cache.Generic;
 using ZyGames.Framework.Game.Contract;
 using ZyGames.Framework.Game.Service;
 
-namespace GameServer.Action
+namespace TestGameServer.Action
 {
     public class Action1000 : BaseStruct
     {
