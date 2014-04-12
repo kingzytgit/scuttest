@@ -49,7 +49,6 @@ namespace Game.Script
             // 仅在使用python的情况下，需要调用SetActionIgnoreAuthorize来方便test
             // ActionFactory.SetActionIgnoreAuthorize(2001, 2002, 2003);
             InitNotices();
-            int i = 0;
 
             DelegateTest d = new DelegateTest();
             d.call();

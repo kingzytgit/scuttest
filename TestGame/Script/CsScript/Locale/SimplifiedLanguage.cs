@@ -49,54 +49,54 @@ namespace GameServer.CsScript.Locale
         /// <summary>
         /// 参数名:{0}超出范围[{1}-{2}]
         /// </summary>
-        public string UrlParamOutRange = "参数:{0}超出范围[{1} - {2}]";
+        new public string UrlParamOutRange = "参数:{0}超出范围[{1} - {2}]";
 
         /// <summary>
         /// 服务器正在维护
         /// </summary>
-        public string ServerMaintain = "服务器正在维护";
+        new public string ServerMaintain = "服务器正在维护";
 
         /// <summary>
         /// 服务器正在重启中，请稍候...
         /// </summary>
-        public string ServerLoading = "服务器正在重启中，请稍候...";
+        new public string ServerLoading = "服务器正在重启中，请稍候...";
 
         /// <summary>
         /// 请求超时
         /// </summary>
-        public string RequestTimeout = "请求超时";
+        new public string RequestTimeout = "请求超时";
         /// <summary>
         /// 您输入的账号或密码不正确
         /// </summary>
-        public string PasswordError = "您输入的账号或密码不正确";
+        new public string PasswordError = "您输入的账号或密码不正确";
 
         /// <summary>
         /// 加载数据失败
         /// </summary>
-        public string LoadDataError = "加载数据失败";
+        new public string LoadDataError = "加载数据失败";
 
         /// <summary>
         /// 该账号已被封禁
         /// </summary>
-        public string AcountIsLocked = "该账号已被封禁";
+        new public string AcountIsLocked = "该账号已被封禁";
 
         /// <summary>
         /// 您的账号未登录或已过期
         /// </summary>
-        public string AcountNoLogin = "您的账号未登录或已过期";
+        new public string AcountNoLogin = "您的账号未登录或已过期";
 
         /// <summary>
         /// 您的账号已在其它地方登录
         /// </summary>
-        public string AcountLogined = "您的账号已在其它地方登录";
+        new public string AcountLogined = "您的账号已在其它地方登录";
 
         /// <summary>
         /// 充值失败
         /// </summary>
-        public string AppStorePayError = "充值失败";
+        new public string AppStorePayError = "充值失败";
         /// <summary>
         /// 获取受权失败
         /// </summary>
-        public string GetAccessFailure = "获取受权失败";
+        new public string GetAccessFailure = "获取受权失败";
     }
 }
