@@ -87,7 +87,7 @@ namespace Game.Script
             for (int i = 0; i < 50; i++)
             {
                 int id = (int)cacheSet.GetNextNo();
-                Notice notice = new Notice(id);
+                Notice notice = new Notice(id); 
                 notice.title = "tile" + id;
                 notice.content = "Content" + id;
                 notice.time = DateTime.Now;
