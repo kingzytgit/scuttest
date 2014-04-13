@@ -29,6 +29,7 @@ using ZyGames.Framework.Game.Context;
 using ZyGames.Framework.Game.Contract;
 using ZyGames.Framework.Game.Runtime;
 using ZyGames.Framework.Script;
+using Syncronization;
 
 /*
  * 这里的Game.Script命名空间是GameServer.exe内部直接使用的名字，写死的名字，
@@ -52,6 +53,9 @@ namespace Game.Script
 
             DelegateTest d = new DelegateTest();
             d.call();
+
+            SyncDataListener sdl = new SyncDataListener();
+            sdl.Run();
         }
 
         protected override void OnServiceStop()
