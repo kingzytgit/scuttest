@@ -95,7 +95,7 @@ namespace GameServer.CsScript.Locale
         /// </summary>
         new public string AppStorePayError = "充值失败";
         /// <summary>
-        /// 获取受权失败
+        /// 获取受权失败 
         /// </summary>
         new public string GetAccessFailure = "获取受权失败";
     }
