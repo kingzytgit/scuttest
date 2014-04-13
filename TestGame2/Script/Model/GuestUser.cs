@@ -68,6 +68,7 @@ namespace TestGameServer.Model
             return UserId;
         }
 
+        [Obsolete]
         public override string GetSessionId()
         {
             return SId;

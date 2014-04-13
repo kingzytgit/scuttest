@@ -76,7 +76,10 @@ namespace Syncronization
 
         public void Run()
         {
-            ThreadPool.QueueUserWorkItem(StartListener);
+            //因为同时可能有很多玩家开副本，不能等到线程池OK再开副本
+            //但同时机器资源有限，也不能开很多线程，
+            // socket select方法，研究。。。
+            //ThreadPool.QueueUserWorkItem(StartListener);
         }
         public static void TestClient(string data)
         {

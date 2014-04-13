@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F54B390B-447F-46EF-91CC-3C6CAA6B3B99}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TestGameServer</RootNamespace>
     <AssemblyName>TestGame</AssemblyName>
@@ -28,6 +28,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Syncronization.SyncDataListener</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZipLib">
@@ -105,6 +108,8 @@
     <Compile Include="Script\CsScript\Action\Action2004.cs" />
     <Compile Include="Script\CsScript\Action\ActionIDDefine.cs" />
     <Compile Include="Script\CsScript\Action\BaseAction.cs" />
+    <Compile Include="Script\CsScript\Common\Log.cs" />
+    <Compile Include="Script\CsScript\Syncronization\SyncDataListener.cs" />
     <Compile Include="Script\Model\User.cs" />
     <Compile Include="Script\Model\UserScore.cs" />
     <Compile Include="Script\CsScript\Test\DelegateTest.cs" />
