@@ -85,7 +85,7 @@ namespace Game.Script
              */ 
             var cacheSet = new ShareCacheStruct<Notice>(); 
             for (int i = 0; i < 50; i++)
-            {
+            { 
                 int id = (int)cacheSet.GetNextNo();
                 Notice notice = new Notice(id); 
                 notice.title = "tile" + id;
