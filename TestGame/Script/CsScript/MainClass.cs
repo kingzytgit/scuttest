@@ -82,7 +82,7 @@ namespace Game.Script
              *            }
              *           ...
              *     }
-             */
+             */ 
             var cacheSet = new ShareCacheStruct<Notice>();
             for (int i = 0; i < 50; i++)
             {
